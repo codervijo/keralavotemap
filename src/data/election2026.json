@@ -1,0 +1,737 @@
+{
+  "fronts": {
+    "LDF": { "name": "Left Democratic Front",        "color": "#c62828" },
+    "UDF": { "name": "United Democratic Front",      "color": "#1565c0" },
+    "NDA": { "name": "National Democratic Alliance", "color": "#e65100" },
+    "IND": { "name": "Independent / Others",         "color": "#546e7a" }
+  },
+  "parties": {
+    "CPI(M)":  { "front": "LDF", "color": "#c62828" },
+    "CPI":     { "front": "LDF", "color": "#e53935" },
+    "KC(M)":   { "front": "LDF", "color": "#ad1457" },
+    "KC(B)":   { "front": "LDF", "color": "#880e4f" },
+    "NCP-SP":  { "front": "LDF", "color": "#d32f2f" },
+    "RJD":     { "front": "LDF", "color": "#b71c1c" },
+    "INL":     { "front": "LDF", "color": "#bf360c" },
+    "Cong(S)": { "front": "LDF", "color": "#c62828" },
+    "ISJD":    { "front": "LDF", "color": "#6d4c41" },
+    "RSP(L)":  { "front": "LDF", "color": "#78909c" },
+    "INC":     { "front": "UDF", "color": "#138808",
+                 "gradient": "linear-gradient(to right, #ff9933, #ffffff 50%, #138808)",
+                 "gradientText": "#333" },
+    "IUML":    { "front": "UDF", "color": "#2e7d32" },
+    "KEC":     { "front": "UDF", "color": "#0277bd" },
+    "KC(J)":   { "front": "UDF", "color": "#01579b" },
+    "RSP":     { "front": "UDF", "color": "#006064" },
+    "RMPI":    { "front": "UDF", "color": "#1a237e" },
+    "CMP":     { "front": "UDF", "color": "#283593" },
+    "BJP":     { "front": "NDA", "color": "#e65100" },
+    "BDJS":    { "front": "NDA", "color": "#f57c00" },
+    "TTP":     { "front": "NDA", "color": "#ff6f00" },
+    "AAP":     { "front": "IND", "color": "#0097a7" },
+    "IND":     { "front": "IND", "color": "#546e7a" }
+  },
+  "candidates": {
+    "1":  [
+      {"name":"K. R. Jayanandan",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"A. K. M. Ashraf",           "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"K. Surendran",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "2":  [
+      {"name":"Shanavas Padhoor",          "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"Kallatra Mahin Haji",       "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"M. L. Ashwini",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "3":  [
+      {"name":"C. H. Kunhambu",            "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. Neelakandan",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Manulal Meloth",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "4":  [
+      {"name":"Govindan Pallikkappil",     "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Shyji Ottapalli",           "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"M. Balraj",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "5":  [
+      {"name":"V. P. P. Mustafa",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Sandeep Varier",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Ravi Kulangara",            "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "6":  [
+      {"name":"T. I. Madhusoodanan",       "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"V. Kunjikrishnan",          "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"A. P. Gangadharan",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "7":  [
+      {"name":"M. Vijin",                  "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Rajeevan Kappachery",       "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"A. V. Anilkumar",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "8":  [
+      {"name":"P. K. Shyamala",            "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"T. K. Govindan",            "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"N. Haridas",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "9":  [
+      {"name":"Mathew Kunnapally",         "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Sajeev Joseph",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Srinath Padmanabhan",       "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "10": [
+      {"name":"K. V. Sumesh",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Kareem Cheleri",            "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"K. K. Vinod Kumar",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "11": [
+      {"name":"Kadanappalli Ramachandran", "party":"Cong(S)","front":"LDF", "incumbent":false},
+      {"name":"T. O. Mohanan",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. Raghunath",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "12": [
+      {"name":"Pinarayi Vijayan",          "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Abdul Rasheed",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"K. Ranjith",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "13": [
+      {"name":"Karayi Rajan",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. P. Saju",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"O. Nidheesh",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "14": [
+      {"name":"P. K. Praveen",             "party":"RJD",    "front":"LDF", "incumbent":false},
+      {"name":"Jayanthi Rajan",            "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Shijilal",                  "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "15": [
+      {"name":"V. K. Sanoj",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Chandran Thillenkeri",      "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Biju Elakkuzhi",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "16": [
+      {"name":"K. K. Shailaja",            "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Sunny Joseph",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Paily Vathiatt",            "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "17": [
+      {"name":"O. R. Kelu",                "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Usha Vijayan",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"P. Shyam Raj",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "18": [
+      {"name":"M. S. Viswanathan",         "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"I. C. Balakrishnan",        "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"A. S. Kavitha",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "19": [
+      {"name":"P. K. Anil Kumar",          "party":"RJD",    "front":"LDF", "incumbent":false},
+      {"name":"T. Siddique",               "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"Prashanth Malavayal",       "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "20": [
+      {"name":"M. K. Bhaskaran",           "party":"RJD",    "front":"LDF", "incumbent":false},
+      {"name":"K. K. Rema",                "party":"RMPI",   "front":"UDF", "incumbent":false},
+      {"name":"K. Dileep",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "21": [
+      {"name":"K. P. Kunhammadkutty",      "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Parakkal Abdulla",          "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Ramadas Manaleri",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "22": [
+      {"name":"P. Vasantham",              "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"K. M. Abhijith",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. P. Vipin Chandran",      "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "23": [
+      {"name":"K. Dasan",                  "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"K. Praveen Kumar",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. R. Praphul Krishnan",    "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "24": [
+      {"name":"T. P. Ramakrishnan",        "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Fathima Thahiliya",         "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"M. Mohanan Master",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "25": [
+      {"name":"K. M. Sachin Dev",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"V. T. Sooraj",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. P. Sateeshan",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "26": [
+      {"name":"A. K. Saseendran",          "party":"NCP-SP", "front":"LDF", "incumbent":true},
+      {"name":"Vidya Balakrishnan",        "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"T. Devadas",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "27": [
+      {"name":"Thottathil Ravindran",      "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"K. Jayanth",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Navya Haridas",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "28": [
+      {"name":"Ahamed Devarkovil",         "party":"INL",    "front":"LDF", "incumbent":true},
+      {"name":"Faisal Babu",               "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"T. Reneesh",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "29": [
+      {"name":"P. A. Mohammed Riyas",      "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"P. V. Anvar",               "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"K. P. Prakash Babu",        "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "30": [
+      {"name":"P. T. A. Rahim",            "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"M. A. Razak Master",        "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"V. K. Sajeevan",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "31": [
+      {"name":"Saleem Madavoor",           "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"P. K. Firos",               "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Giri Pambanal",             "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "32": [
+      {"name":"Linto Joseph",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"C. K. Kasim",               "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Sunny Thomas",              "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "33": [
+      {"name":"P. Jiji",                   "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"T. P. Ashrafali",           "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"P. Subhramanyan",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "34": [
+      {"name":"Shafeer Kizhisery",         "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"P. K. Basheer",             "party":"IUML",   "front":"UDF", "incumbent":true},
+      {"name":"N. Sreeprakash",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "35": [
+      {"name":"U. Sharafali",              "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"Aryadan Shoukath",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Gireesh Mekkad",            "party":"BDJS",   "front":"NDA", "incumbent":false},
+      {"name":"Jaisal Maliyekkal",         "party":"AAP",    "front":"IND", "incumbent":false}
+    ],
+    "36": [
+      {"name":"K. K. Damodaran",           "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"A. P. Anil Kumar",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"E. P. Kumaradas",           "party":"IND",    "front":"NDA", "incumbent":false}
+    ],
+    "37": [
+      {"name":"M. Mustafa",                "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"M. Rahmathulla",            "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Pathmasree M.",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "38": [
+      {"name":"V. P. Muhammad Haneefa",    "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Najeeb Kanthapuram",        "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"K. P. Baburaj",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "39": [
+      {"name":"Kunnath Muhammed",          "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"Manjalamkuzhi Ali",         "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Lijoy Paul",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "40": [
+      {"name":"T. Mujeeb",                 "party":"NCP-SP", "front":"LDF", "incumbent":false},
+      {"name":"P. K. Kunhalikutty",        "party":"IUML",   "front":"UDF", "incumbent":true},
+      {"name":"Aswathy Gupthakumar",       "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "41": [
+      {"name":"Muhammad Sabah Kundukuzhikkal","party":"IND", "front":"LDF", "incumbent":false},
+      {"name":"K. M. Shaji",               "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Jayakrishnan V. N.",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "42": [
+      {"name":"C. P. Musthafa",            "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"T. V. Ibrahim",             "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"M. Preman Master",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "43": [
+      {"name":"Ajit Koladi",               "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"P. M. A. Sameer",           "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Riju C. Raghav",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "44": [
+      {"name":"P. Mohammed Sameer",        "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"P. K. Navas",               "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Deepa Puzhakkal",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "45": [
+      {"name":"V. Abdurahiman",            "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Kurukkoli Moideen",         "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"K. Narayanan Master",       "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "46": [
+      {"name":"Preethi Konchath",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. K. Abid Hussain Thangal","party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Subrahmanian Chunkapally",  "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "47": [
+      {"name":"K. T. Jaleel",              "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"V. S. Joy",                 "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Ravi Thelath",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "48": [
+      {"name":"M. K. Sakeer",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. P. Noushad Ali",         "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"E. Maneesh",                "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "49": [
+      {"name":"M. B. Rajesh",              "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"V. T. Balram",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"V. Unnikrishnan Master",    "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "50": [
+      {"name":"Muhammed Muhsin",           "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"T. P. Shaji",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"P. Manoj",                  "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "51": [
+      {"name":"P. Mammikutty",             "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"P. Harigovindan Master",    "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Sanku T. Das",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "52": [
+      {"name":"K. Premkumar",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"P. K. Sasi",                "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"Major Ravi",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "53": [
+      {"name":"K. Shanthakumari",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. A. Thulasi",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Renu Suresh",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "54": [
+      {"name":"Mansil Abubacker",          "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"N. Samsudheen",             "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"Issac Varghese",            "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "55": [
+      {"name":"E. Prabhakaran",            "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"A. Suresh",                 "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. Krishnakumar",           "party":"BJP",    "front":"NDA", "incumbent":true}
+    ],
+    "56": [
+      {"name":"N. M. R. Rasakh",           "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"Ramesh Pisharody",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Sobha Surendran",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "57": [
+      {"name":"P. P. Sumod",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. C. Subramanian",         "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Suresh Babu",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "58": [
+      {"name":"V. Murugadas",              "party":"ISJD",   "front":"LDF", "incumbent":false},
+      {"name":"Sumesh Achuthan",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Pranesh Rajendran",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "59": [
+      {"name":"K. Preman",                 "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"A. Thankappan",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"A. N. Anurag",              "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "60": [
+      {"name":"T. M. Sasi",                "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. N. Febin",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"K. V. Prasanna Kumar",      "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "61": [
+      {"name":"U. R. Pradeep",             "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Sivan Veettikkunnu",        "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"K. Balakrishnan",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "62": [
+      {"name":"A. C. Moideen",             "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"P. T. Ajay Mohan",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Rijil K. R.",               "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "63": [
+      {"name":"N. K. Akbar",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"C. H. Rasheed",             "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"B. Gopalakrishnan",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "64": [
+      {"name":"C. Raveendranath",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"T. N. Prathapan",           "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"K. K. Aneesh Kumar",        "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "65": [
+      {"name":"Xavier Chittilappilly",     "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Vyshak Narayanaswami",      "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"T. S. Ullas Babu",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "66": [
+      {"name":"K. Rajan",                  "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Shaji Kodankandath",        "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Bijoy Thomas",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "67": [
+      {"name":"Alankode Leelakrishnan",    "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Rajan Pallan",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Padmaja Venugopal",         "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "68": [
+      {"name":"Geetha Gopi",               "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Sunil Lalur",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"C. C. Mukundan",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "69": [
+      {"name":"K. K. Valsaraj",            "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"T. M. Nazar",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Athulya Ghosh",             "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "70": [
+      {"name":"R. Bindu",                  "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Thomas Unniyadan",          "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Santhosh Cherkalam",        "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "71": [
+      {"name":"K. K. Ramachandran",        "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"K. M. Babu Raj",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"A. Nagesh",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "72": [
+      {"name":"Biju Chirayath",            "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"T. J. Saneesh Kumar Joseph","party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Charly Paul",               "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "73": [
+      {"name":"V. R. Sunil",               "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"O. J. Janeesh",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Varghese George",           "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "74": [
+      {"name":"Basil Paul",                "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Manoj Moothedan",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Jibi Pathickal",            "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "75": [
+      {"name":"Saju Paul",                 "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Roji M. John",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Promy Kuriakose",           "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "76": [
+      {"name":"A. M. Ariff",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Anwar Sadath",              "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"M. A. Brahmaraj",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "77": [
+      {"name":"P. Rajeeve",                "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"V. E. Abdul Gafoor",        "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"M. P. Binu",                "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "78": [
+      {"name":"E. T. Taison",              "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"V. D. Satheesan",           "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"Vathsala Prasanna Kumar",   "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "79": [
+      {"name":"M. B. Shaini",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Tony Chammany",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Anitha Thomas",             "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "80": [
+      {"name":"K. J. Maxi",                "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Mohammad Shiyas",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Xavier Joolappan",          "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "81": [
+      {"name":"K. N. Unnikrishnan",        "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Deepak Joy",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Anjali Nair",               "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "82": [
+      {"name":"Sabu George",               "party":"ISJD",   "front":"LDF", "incumbent":false},
+      {"name":"T. J. Vinod",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"P. R. Shivashankaran",      "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "83": [
+      {"name":"Pushpa Das",                "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Uma Thomas",                "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"Akhil Marar",               "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "84": [
+      {"name":"P. V. Srinijin",            "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"V. P. Sajeendran",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Babu Divakaran",            "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "85": [
+      {"name":"Sabu K. Jacob",             "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Anoop Jacob",               "party":"KC(J)",  "front":"UDF", "incumbent":false},
+      {"name":"Jibi Abraham",              "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "86": [
+      {"name":"N. Arun",                   "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Mathew Kuzhalnadan",        "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"Sunny Kadoothazhe",         "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "87": [
+      {"name":"Antony John",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Shibu Thekkumpuram",        "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Aji Narayanan",             "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "88": [
+      {"name":"A. Raja",                   "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"F. Raja",                   "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"S. Rajendran",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "89": [
+      {"name":"K. K. Jayachandran",        "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Senapathy Venu",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Sangeetha Viswanathan",     "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "90": [
+      {"name":"Cyriac Chazhikaadan",       "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Apu John Joseph",           "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Roy A. Varikkadu",          "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "91": [
+      {"name":"Roshy Augustine",           "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Roy K. Paulose",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Pratheesh Prabha",          "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "92": [
+      {"name":"K. Salim Kumar",            "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Cyriac Thomas",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"V. Ratheesh",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "93": [
+      {"name":"Jose K. Mani",              "party":"KC(M)",  "front":"LDF", "incumbent":true},
+      {"name":"Mani C. Kappan",            "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"Shone George",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "94": [
+      {"name":"Nirmala Jimmy",             "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Mons Joseph",               "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Suresh Ettikunnel",         "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "95": [
+      {"name":"P. Pradeep",                "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"K. Binimon",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"K. Ajith",                  "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "96": [
+      {"name":"V. N. Vasavan",             "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Nattakom Suresh",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Athira D. Nair",            "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "97": [
+      {"name":"K. Anilkumar",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Thiruvanchoor Radhakrishnan","party":"INC",   "front":"UDF", "incumbent":true},
+      {"name":"P. Anilkumar",              "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "98": [
+      {"name":"K. M. Radhakrishnan",       "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Chandy Oommen",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Ravindranath Vakathanam",   "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "99": [
+      {"name":"Job Michael",               "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Vinu Job",                  "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"B. Radhakrishna Menon",     "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "100":[
+      {"name":"N. Jayaraj",                "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Rony K Baby",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"George Kurian",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "101":[
+      {"name":"Sebastian Kulathunkal",     "party":"KC(M)",  "front":"LDF", "incumbent":true},
+      {"name":"Sebastian M. J.",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"P. C. George",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "102":[
+      {"name":"Daleema",                   "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Shanimol Usman",            "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"P. S. Jyothis",             "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "103":[
+      {"name":"P. Prasad",                 "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"K. R. Rajendra Prasad",     "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"T. P. Anantharaj",          "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "104":[
+      {"name":"P. P. Chitharanjan",        "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"A. D. Thomas",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"M. J. Job",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "105":[
+      {"name":"H. Salam",                  "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"G. Sudhakaran",             "party":"IND",    "front":"UDF", "incumbent":false},
+      {"name":"Arun Anirudhan",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "106":[
+      {"name":"Thomas K. Thomas",          "party":"NCP-SP", "front":"LDF", "incumbent":false},
+      {"name":"Reji Cheriyan",             "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Santhosh Santhy",           "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "107":[
+      {"name":"T. T. Jismon",              "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Ramesh Chennithala",        "party":"INC",    "front":"UDF", "incumbent":true},
+      {"name":"Sandeep Vachaspati",        "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "108":[
+      {"name":"U. Prathibha",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"M. Liju",                   "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Thambi Mettuthara",         "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "109":[
+      {"name":"M. S. Arun Kumar",          "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Muthara Raj",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Ajimon",                    "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "110":[
+      {"name":"Saji Cherian",              "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Eby Kuriakose",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"M. V. Gopakumar",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "111":[
+      {"name":"Mathew T. Thomas",          "party":"ISJD",   "front":"LDF", "incumbent":false},
+      {"name":"Varghese Mammen",           "party":"KEC",    "front":"UDF", "incumbent":false},
+      {"name":"Anoop Antony",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "112":[
+      {"name":"Pramod Narayanan",          "party":"KC(M)",  "front":"LDF", "incumbent":false},
+      {"name":"Pazhakulam Madhu",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Thomas K. Samuel",          "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "113":[
+      {"name":"Veena George",              "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Abin Varkey",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Kummanam Rajasekharan",     "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "114":[
+      {"name":"K. U. Jenish Kumar",        "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Satheesh Kochuparambil",    "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"T. P. Sundareshan",         "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "115":[
+      {"name":"Praji Sashidharan",         "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Santhakumar",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Pandalam Prathapan",        "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "116":[
+      {"name":"M. S. Thara",               "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"C. R. Mahesh",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"V. S. Jithin Dev",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "117":[
+      {"name":"Sujith Vijayanpillai",      "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"Shibu Baby John",           "party":"RSP",    "front":"UDF", "incumbent":false},
+      {"name":"K. R. Rajesh",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "118":[
+      {"name":"Kovoor Kunjumon",           "party":"RSP(L)", "front":"LDF", "incumbent":false},
+      {"name":"Ullas Kovoor",              "party":"RSP",    "front":"UDF", "incumbent":false},
+      {"name":"Raji Prasad",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "119":[
+      {"name":"K. N. Balagopal",           "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"P. Aisha Potty",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"R. Reshmi",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "120":[
+      {"name":"K. B. Ganesh Kumar",        "party":"KC(B)",  "front":"LDF", "incumbent":false},
+      {"name":"Jyothikumar Chamakkala",    "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Anil Kumar S.",             "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "121":[
+      {"name":"C. Ajaya Prasad",           "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Noushad Yunus",             "party":"IUML",   "front":"UDF", "incumbent":false},
+      {"name":"B. Raghunathan Pillai",     "party":"TTP",    "front":"NDA", "incumbent":false}
+    ],
+    "122":[
+      {"name":"J. Chinchu Rani",           "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"M. M. Nazeer",              "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"R. S. Arun Raj",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "123":[
+      {"name":"S. L. Sajikumar",           "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"P. C. Vishnunadh",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Robin Radhakrishnan",       "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "124":[
+      {"name":"S. Jayamohan",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Bindhu Krishna",            "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"N. Prathap Kumar",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "125":[
+      {"name":"M. Noushad",                "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Vishnu Mohan",              "party":"RSP",    "front":"UDF", "incumbent":false},
+      {"name":"Saji D. Anand",             "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "126":[
+      {"name":"R. Rajendran",              "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Sooraj Ravi",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"B. B. Gopakumar",           "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "127":[
+      {"name":"V. Joy",                    "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Varkala Kahar",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"S. Smitha",                 "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "128":[
+      {"name":"O. S. Ambika",              "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"Santhosh Bhadran",          "party":"RSP",    "front":"UDF", "incumbent":false},
+      {"name":"P. Sudheer",                "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "129":[
+      {"name":"Manoj Idamana",             "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Ramya Haridas",             "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"B. S. Anoop",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "130":[
+      {"name":"G. R. Anil",                "party":"CPI",    "front":"LDF", "incumbent":false},
+      {"name":"Meenankal Kumar",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Yuvaraj Gokul",             "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "131":[
+      {"name":"D. K. Murali",              "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Sudheersha Palode",         "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Venu Karanavar",            "party":"BDJS",   "front":"NDA", "incumbent":false}
+    ],
+    "132":[
+      {"name":"Kadakampally Surendran",    "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Sarathchandra Prasad",      "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"V. Muraleedharan",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "133":[
+      {"name":"V. K. Prasanth",            "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"K. Muraleedharan",          "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"R. Sreelekha",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "134":[
+      {"name":"Sudheer Karamana",          "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"C. P. John",                "party":"CMP",    "front":"UDF", "incumbent":false},
+      {"name":"Karamana Jayan",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "135":[
+      {"name":"V. Sivankutty",             "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"K. S. Sabarinadhan",        "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Rajeev Chandrasekhar",      "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "136":[
+      {"name":"G. Steephen",               "party":"CPI(M)", "front":"LDF", "incumbent":false},
+      {"name":"V. S. Sivakumar",           "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Vivek Gopan",               "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "137":[
+      {"name":"C. K. Hareendran",          "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"Neyyattinkara Sanal",       "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"Gireesh Neyyar",            "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "138":[
+      {"name":"I. B. Sathish",             "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"M. R. Baiju",               "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"P. K. Krishnadas",          "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "139":[
+      {"name":"Bhagat Rufus",              "party":"IND",    "front":"LDF", "incumbent":false},
+      {"name":"M. Vincent",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"T. N. Suresh",              "party":"BJP",    "front":"NDA", "incumbent":false}
+    ],
+    "140":[
+      {"name":"K. Ancelan",                "party":"CPI(M)", "front":"LDF", "incumbent":true},
+      {"name":"N. Sakthan",                "party":"INC",    "front":"UDF", "incumbent":false},
+      {"name":"S. Rajasekharan Nair",      "party":"BJP",    "front":"NDA", "incumbent":false}
+    ]
+  }
+}

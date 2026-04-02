@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ldf: #c62828;
+  --udf: #1565c0;
+  --nda: #e65100;
+  --ind: #546e7a;
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --border: #e0e4ea;
+  --text: #1a1a2e;
+  --text-muted: #6b7280;
+  --radius: 8px;
+  --shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+html, body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}

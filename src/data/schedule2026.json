@@ -1,0 +1,26 @@
+{
+  "overview": {
+    "title":          "16th Kerala Legislative Assembly General Election",
+    "phases":         1,
+    "constituencies": 140,
+    "seatsForMajority": 71,
+    "assemblyTenureEnds": "2026-05-23"
+  },
+  "dates": [
+    { "event": "ECI Schedule Announced",              "date": "2026-03-15", "highlight": false },
+    { "event": "Model Code of Conduct in Effect",     "date": "2026-03-15", "highlight": false },
+    { "event": "Gazette Notification",                "date": "2026-03-16", "highlight": false },
+    { "event": "Last Date for Filing Nominations",    "date": "2026-03-23", "highlight": false },
+    { "event": "Scrutiny of Nominations",             "date": "2026-03-24", "highlight": false },
+    { "event": "Last Date for Withdrawal",            "date": "2026-03-26", "highlight": false },
+    { "event": "Polling Day",                         "date": "2026-04-09", "highlight": true  },
+    { "event": "Counting of Votes",                   "date": "2026-05-04", "highlight": true  },
+    { "event": "Election Process Deadline",           "date": "2026-05-06", "highlight": false }
+  ],
+  "voters": {
+    "total":       27000000,
+    "male":        13100000,
+    "female":      13800000,
+    "transgender": 277
+  }
+}
